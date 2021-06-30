@@ -6,6 +6,7 @@
   "scripts": {
     "start": "gulp dev",
     "test": "jest",
+    "postinstall": "yarn build",
     "build": "yarn test && gulp build",
     "lint": "eslint --ext .js,.jsx src"
   },
